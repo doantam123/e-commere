@@ -3,9 +3,8 @@ import './App.css';
 import HomePage from './customer/pages/HomePage/HomePage';
 import Navigation from './customer/components/Navigation/Navigation';
 import Footer from './customer/components/Footer/Footer';
-import ProductCard from './customer/components/Product/ProductCard';
-import Product from './customer/components/Product/Product';
-import ProductDetails from './customer/components/ProductDetails/ProductDetails';
+import Cart from './customer/components/Cart/Cart';
+import Checkout from './customer/components/Checkout/Checkout';
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
       <Navigation />
       <div>
         {/* <HomePage /> */}
-        <ProductDetails />
+        <Checkout />
       </div>
       <Footer />
     </div>
